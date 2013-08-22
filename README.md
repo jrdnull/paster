@@ -1,7 +1,7 @@
 paster
 ======
 
-PHP pastebin using the [Silex micro-framework](http://silex.sensiolabs.org/) and [Hilight.js](http://softwaremaniacs.org/soft/highlight/en/).
+PHP pastebin using the [Silex micro-framework](http://silex.sensiolabs.org/) and [Highlight.js](http://softwaremaniacs.org/soft/highlight/en/).
 
 Usage
 -----
