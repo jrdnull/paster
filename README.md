@@ -5,9 +5,9 @@ PHP pastebin using the [Silex micro-framework](http://silex.sensiolabs.org/) and
 
 Usage
 -----
-Fetch dependencies with [Composer](http://getcomposer.org/) and setup rewriting or edit *.htaccess* to suit your needs.
+Fetch dependencies with [Composer](http://getcomposer.org/) and setup rewriting, or edit *.htaccess* to suit your needs.
 
-The SQLite database should create itself if the web server has permission.
+The SQLite database will be created if the web server has permission.
  
 License
 --------
