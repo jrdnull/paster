@@ -1,0 +1,4 @@
+vendor/*
+paster.db
+.*
+!/.gitignore
