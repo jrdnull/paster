@@ -7,10 +7,7 @@ $app = new Application();
 $app['debug'] = false;
 $app->register(new TwigServiceProvider(), array('twig.path' => __DIR__.'/../views'));
 $app->register(new DoctrineServiceProvider(), array(
-	'db.options' => array(
-	'driver'   => 'pdo_sqlite',
-	'path'     => __DIR__.'/../paster.db',
-	)
+    'db.options' => array('driver' => 'pdo_sqlite', 'path' => __DIR__.'/../paster.db')
 ));
 
 return $app;
