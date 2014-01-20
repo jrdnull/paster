@@ -28,17 +28,17 @@ class PasterDatabase {
             'paste' => $content
         ));
 
-        if ($affected = 0) {
+        if ($affected == 0) {
             return NULL;
         }
         return $id;
     }
 
     public function getPaste($id) {
-        $user = $this->db->fetchAssoc('SELECT * FROM pastes WHERE id = ?', array($id));
-        if (empty($user)) {
+        $paste = $this->db->fetchAssoc('SELECT * FROM pastes WHERE id = ?', array($id));
+        if (empty($paste)) {
             return NULL;
         }
-        return $user;
+        return $paste;
     }
 } 
